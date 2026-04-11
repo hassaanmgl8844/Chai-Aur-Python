@@ -7,3 +7,4 @@ if day == "Wednesday":
     price = price -2
 
 print("Your Price Is $",price) 
+
