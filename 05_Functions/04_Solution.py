@@ -1,6 +1,13 @@
 import math
 
 def circle_stats(radius):
-    return math.pi * radius ** 2
+    area = math.pi * radius ** 2
+    circumference = 2 * math.pi * radius
+    return area , circumference
 
-print(circle_stats(5))
+a , c = circle_stats(5)
+
+a = round(a, 2)         # then round each
+c = round(c, 2)
+
+print("Area: " , a , "Circumference: " , c)
