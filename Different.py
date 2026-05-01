@@ -11,3 +11,17 @@
 #     print("This is Negative Number.")
 # else:
 #     print("You're Printing Zero Baby!")
+
+# Ask user to enter two numbers
+# Print the LARGER one!
+
+# user1 , user2 = int(input("Enter a Number: ")).split()
+
+num1 = int(input("Enter first number: "))
+num2 = int(input("Enter second number: "))
+if num1 > num2:
+    print(num1)
+elif num2 > num1:
+    print(num2)
+elif num1 == num2:
+    print("Both Are Same!")
