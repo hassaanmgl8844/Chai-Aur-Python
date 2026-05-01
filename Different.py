@@ -30,4 +30,4 @@ user = int(input("Enter a Number: "))
 if user % 2 == 0:
     print("This is Even Number.")
 else:
-    print("Odd One!")
+    print("Odd One!").a]*
