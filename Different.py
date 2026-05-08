@@ -26,8 +26,17 @@
 # elif num1 == num2:
 #     print("Both Are Same!")
 
-user = int(input("Enter a Number: "))
-if user % 2 == 0:
-    print("This is Even Number.")
-else:
-    print("Odd One!").a]*
+# user = int(input("Enter a Number: "))
+# if user % 2 == 0:
+#     print("This is Even Number.")
+# else:
+#     print("Odd One!")
+
+# Ask user to enter weight (kg) and height (m)
+# Calculate BMI = weight / height ** 2
+# Then print category:
+
+# BMI < 18.5  → "Underweight"
+# BMI < 25.0  → "Normal"
+# BMI < 30.0  → "Overweight"
+# BMI >= 30.0 → "Obese"
