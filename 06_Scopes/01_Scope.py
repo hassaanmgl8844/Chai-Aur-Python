@@ -13,3 +13,12 @@
 #     x = 12
 # func3()
 # print(x)
+
+# Something Interesting!
+# x = 21
+# def f1():
+#     x = 12
+#     def f2():
+#         print(x)
+#     f2()
+# f1()
