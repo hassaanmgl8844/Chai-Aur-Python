@@ -9,6 +9,9 @@ class Car:
 
     def full_name(self):
         return f"{self.__brand} {self.model}"
+    
+    def fuel_type(self):
+        return "Petrol Or Diesel?"
 
 
 class ElectricCar(Car):
@@ -16,10 +19,16 @@ class ElectricCar(Car):
         super().__init__(brand, model)
         self.battery_size = battery_size
 
+    def fuel_type(self):
+        return "Electric Charge!"
+
 
 my_tesla = ElectricCar("Tesla", "Model S", "1122KWh")
+print(my_tesla.fuel_type())
 # print(my_tesla.model)
-print(my_tesla.get_brand())
+
+blue_box = Car("Ford","Mustang")
+print(blue_box.fuel_type())
 
 # my_car = Car("Toyata","Corolla")
 # print(my_car.brand)
