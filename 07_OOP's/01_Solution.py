@@ -37,26 +37,6 @@ class ElectricCar(Car):
 
 
 
-#     def full_name(self):
-#         return f"{self.__brand} {self.model}"
-
-#     def fuel_type(self):
-#         return "Petrol Or Diesel?"
-
-
-# class ElectricCar(Car):
-#     def __init__(self, brand, model, battery_size):
-#         super().__init__(brand, model)
-#         self.battery_size = battery_size
-
-#     def fuel_type(self):
-#         return "Electric Charge!"
-
-
-# my_tesla = ElectricCar("Tesla", "Model S", "1122KWh")
-# print(my_tesla.fuel_type())
-# # print(my_tesla.model)
-
 # blue_box = Car("Ford","Mustang")
 # print(blue_box.fuel_type())
 
