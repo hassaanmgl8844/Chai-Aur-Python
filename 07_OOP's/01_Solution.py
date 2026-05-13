@@ -32,18 +32,3 @@ class ElectricCar(Car):
     def fuel_type():
         return "Electric charge"
 
-
-
-
-
-
-# blue_box = Car("Ford","Mustang")
-# print(blue_box.fuel_type())
-
-# # my_car = Car("Toyata","Corolla")
-# # print(my_car.brand)
-# # print(my_car.model)
-# # print(my_car.full_name())
-
-# # my_new_car = Car("Ford","Mustang")
-# # print(my_new_car.model)
