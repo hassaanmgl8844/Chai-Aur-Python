@@ -33,16 +33,6 @@ class ElectricCar(Car):
         return "Electric charge"
 
 
-# print(my_tesla.fuel_type())
-
-# my_car = Car("Tata", "Safari")
-# my_car.model = "City"
-# Car("Tata", "Nexon")
-
-
-# print(my_car.general_description())
-# print(my_car.model)
-
 
 # my_car = Car("Toyota", "Corolla")
 # print(my_car.brand)
