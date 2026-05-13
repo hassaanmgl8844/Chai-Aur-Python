@@ -34,13 +34,7 @@ class ElectricCar(Car):
 
 
 
-# my_car = Car("Toyota", "Corolla")
-# print(my_car.brand)
-# print(my_car.model)
-# print(my_car.full_name())
 
-# my_new_car = Car("Tata", "Safari")
-# print(my_new_car.model)
 
 
 class Battery:
