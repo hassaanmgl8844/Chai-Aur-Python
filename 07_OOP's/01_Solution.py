@@ -37,35 +37,6 @@ class ElectricCar(Car):
 
 
 
-class Battery:
-    def battery_info(self):
-        return "this is battery"
-
-
-class Engine:
-    def engine_info(self):
-        return "This is engine"
-
-
-class ElectricCarTwo(Battery, Engine, Car):
-    pass
-
-
-my_new_tesla = ElectricCarTwo("Tesla", "Model S")
-print(my_new_tesla.engine_info())
-print(my_new_tesla.battery_info())
-
-
-# Mine
-# Create a Car Class with attributes like brandes and models. Than create an instance of Class.
-# class Car:
-#     def __init__(self, brand, model):
-#         self.__brand = brand
-#         self.model = model
-
-#     def get_brand(self):
-#         return self.__brand+ " !"
-
 #     def full_name(self):
 #         return f"{self.__brand} {self.model}"
 
