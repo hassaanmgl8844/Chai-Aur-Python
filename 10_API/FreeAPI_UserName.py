@@ -2,7 +2,8 @@ import requests
 
 
 def fetch_random_user_api():
-    url = "https://api.freeapi.app/api/v1/public/randomusers/user/random"
+    # url = "https://api.freeapi.app/api/v1/public/randomusers/user/random"
+    url = "https://api.freeapi.app/api/v1/public/randomjokes/joke/random"
     response = requests.get(url)
     data = response.json()
 
