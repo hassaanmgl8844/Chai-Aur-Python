@@ -9,17 +9,17 @@ def fetch_random_user_api():
 
     if data["success"] and "data" in data:
         user_data = data["data"]
-        username = user_data["login"]["username"]
-        country = user_data["location"]["country"]
-        return username, country
+        userdata = user_data["id"]
+        usercontent = user_data["content"]
+        return userdata,usercontent
     else:
         raise Exception("Failed to Fetch data!")
 
 
 def main():
     try:
-        username, country = fetch_random_user_api()
-        print(f"Username: {username}, Country: {country}")
+        userdata, usercontent = fetch_random_user_api()
+        print(f"Id: {userdata} , Content: {usercontent}")
     except Exception as e:
         print(str(e))
 
