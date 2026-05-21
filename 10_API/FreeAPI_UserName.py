@@ -10,7 +10,7 @@ def fetch_random_user_api():
         user_data = data["data"]
         author = user_data["author"]
         authorcontent = user_data["content"]
-        return author,authorcontent
+        return author, authorcontent
     else:
         raise Exception("Failed to Fetch data!")
 
@@ -18,9 +18,7 @@ def fetch_random_user_api():
 def main():
     try:
         author, authorcontent = fetch_random_user_api()
-        print(
-            f"Author: {author} , Content: {authorcontent}"
-        )
+        print(f"Author: {author} , Content: {authorcontent}")
     except Exception as e:
         print(str(e))
 
