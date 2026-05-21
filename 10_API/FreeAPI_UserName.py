@@ -16,6 +16,16 @@ def fetch_random_user_api():
 
 
 def main():
+    print("Welcome to The Jokes Generator!")
+    jq = input("What Do You Want? (Joke/Quote): ").lower()
+
+    if jq == "Joke":
+        fetch_random_user_api()
+    elif jq == "Quote":
+        fetch_random_user_api()
+    else:
+        print("Invalid Choice!")
+
     try:
         author, authorcontent = fetch_random_user_api()
         print(f"Author: {author} , Content: {authorcontent}")
